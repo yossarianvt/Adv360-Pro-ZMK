@@ -63,6 +63,6 @@ macro_cents: macro_cents{
 	wait-ms = <30>;
 	tap-ms = <30>;
 	bindings = <&macro_press &kp LALT>,
-		<macro_tap &kp KP_N1 &kp KP_N5 &kp KB_N5>
+		<&macro_tap &kp KP_N1 &kp KP_N5 &kp KB_N5>,
 		<&macro_release &kp LALT>;
 };
