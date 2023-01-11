@@ -44,25 +44,3 @@ macro_email: macro_email{
 		<&kp AT>, <&kp G>, <&kp M>, <&kp A>, <&kp I>, <&kp L>, 
 		<&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
 };
-macro_work_email: macro_work_email{
-	compatible = "zmk,behavior-macro";
-	label = "macro_work_email";
-	#binding-cells = <0>;
-	wait-ms = <30>;
-	tap-ms = <30>;
-	bindings = <&kp J>, <&kp E>, <&kp R>, <&kp E>, <&kp M>, <&kp Y>, 
-		<&kp DOT>, <&kp L>, <&kp E>, <&kp R>, <&kp N>, <&kp E>, <&kp R>,
-		<&kp AT>, <&kp R>, <&kp O>, <&kp C>, <&kp K>, <&kp S>, <&kp T>, <&kp A>, <&kp R>,
-		<&kp N>, <&kp E>, <&kp W>, <&kp E>, <&kp N>, <&kp G>, <&kp L>, <&kp A>, <&kp N>, <&kp D>,
-		<&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
-};
-macro_cents: macro_cents{
-	compatible = "zmk,behavior-macro";
-	label = "macro_cents";
-	#binding-cells = <0>;
-	wait-ms = <30>;
-	tap-ms = <30>;
-	bindings = <&macro_press &kp LALT>,
-		<&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N5>,
-		<&macro_release &kp LALT>;
-};
