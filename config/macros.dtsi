@@ -60,5 +60,33 @@ macro_bug: macro_bug{
 	#binding-cells = <0>;
 	bindings = <&kp LC(V)>, <&kp UP>, <&kp UP>, <&kp UP>, <&kp UP>, <&kp UP>, <&kp HOME>, 
 		<&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, <&kp DEL>, 
-		<&kp B>, <&kp STAR>;
+		<&kp LS(B)>, <&kp STAR>;
 };
+macro_deoptimize: macro_deoptimize{
+	compatible = "zmk,behavior-macro";
+	label = "macro_deoptimize";
+	#binding-cells = <0>;
+	bindings = <&kp CAPSLOCK>, 
+		<&kp P>, <&kp R>, <&kp A>, <&kp G>, <&kp M>, <&kp A>, <&kp UNDER>,
+		<&kp O>, <&kp P>, <&kp T>, <&kp I>, <&kp M>, <&kp I>, <&kp Z>, <&kp E>, <&kp UNDER>, 
+		<&kp O>, <&kp F>, <&kp F>, <&kp LPAR>, <&kp RPAR>, <&kp SEMI>, 
+		<&kp CAPSLOCK>;
+};
+macro_nope: macro_nope{
+	compatible = "zmk,behavior-macro";
+	label = "macro_nope";
+	#binding-cells = <0>;
+	bindings = <&kp CAPSLOCK>, 
+		<&kp D>, <&kp O>, <&kp SPACE>, <&kp N>, <&kp O>, <&kp T>, <&kp SPACE>, <&kp S>, <&kp U>, <&kp B>, <&kp M>, <&kp I>, <&kp T>,
+		<&kp CAPSLOCK>;
+};
+macro_not_yet: macro_not_yet{
+	compatible = "zmk,behavior-macro";
+	label = "macro_not_yet";
+	#binding-cells = <0>;
+	bindings = <&kp CAPSLOCK>, 
+		<&kp D>, <&kp O>, <&kp SPACE>, <&kp N>, <&kp O>, <&kp T>, <&kp SPACE>, <&kp S>, <&kp U>, <&kp B>, <&kp M>, <&kp I>, <&kp T>,
+		<&kp CAPSLOCK>,
+		<&kp SPACE>, <&kp LPAR>, <&kp Y>, <&kp E>, <&kp T>, <&kp RPAR>;
+};
+
