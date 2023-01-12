@@ -65,3 +65,7 @@ CONFIG_ZMK_USB_LOGGING=y
 
 
 CONFIG_BUILD_OUTPUT_UF2=y
+
+# Double the macro queue size - default of 64 is too short for a "type my work email for me" macro,
+# and will probably be too short for some other things, as well.
+CONFIG_ZMK_BEHAVIORS_QUEUE_SIZE=128
