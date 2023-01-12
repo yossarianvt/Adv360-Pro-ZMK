@@ -69,3 +69,7 @@ CONFIG_BUILD_OUTPUT_UF2=y
 # Double the macro queue size - default of 64 is too short for a "type my work email for me" macro,
 # and will probably be too short for some other things, as well.
 CONFIG_ZMK_BEHAVIORS_QUEUE_SIZE=128
+
+# Reduce default, painfully slow wait/tap times
+CONFIG_ZMK_MACRO_DEFAULT_WAIT_MS=30
+CONFIG_ZMK_MACRO_DEFAULT_TAP_MS=30
