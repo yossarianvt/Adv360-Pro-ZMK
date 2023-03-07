@@ -101,17 +101,15 @@ macro_nope: macro_little_process{
 	compatible = "zmk,behavior-macro";
 	label = "macro_little_process";
 	#binding-cells = <0>;
-	bindings =
-		<&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, 
-		<&kp P>, <&kp R>, <&kp O>, <&kp C>, <&kp E>, <&kp S>, <&kp S>,
+	bindings = <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, 
+		<&kp P>, <&kp R>, <&kp O>, <&kp C>, <&kp E>, <&kp S>, <&kp S>;
 };
 macro_nope: macro_big_process{
 	compatible = "zmk,behavior-macro";
 	label = "macro_little_process";
 	#binding-cells = <0>;
-	bindings =
-		<&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, 
-		<&kp LS(P)>, <&kp R>, <&kp O>, <&kp C>, <&kp E>, <&kp S>, <&kp S>,
+	bindings = <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, <&kp BSPC>, 
+		<&kp LS(P)>, <&kp R>, <&kp O>, <&kp C>, <&kp E>, <&kp S>, <&kp S>;
 };
 
 
